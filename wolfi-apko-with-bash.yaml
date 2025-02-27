@@ -23,7 +23,7 @@ paths:
   - path: /bin/sh
     type: symlink
     source: /bin/bash
-    permission: 0o755
+    permissions: 0o755
     uid: 0
     gid: 0
 
