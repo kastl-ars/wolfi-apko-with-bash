@@ -20,9 +20,9 @@ entrypoint:
 cmd: --help
 
 paths:
-  - path: /usr/bin/sh
+  - path: /usr/bin/bash
     type: symlink
-    source: /usr/bin/bash
+    source: /usr/bin/sh
 
 accounts:
   groups:
