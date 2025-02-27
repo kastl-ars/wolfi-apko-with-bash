@@ -20,7 +20,7 @@ entrypoint:
 cmd: --help
 
 paths:
-  - path: /usr/bin/ls
+  - path: /usr/bin/sh
     type: symlink
     source: /usr/bin/bash
 
