@@ -19,6 +19,11 @@ entrypoint:
 
 cmd: --help
 
+paths:
+  - path: /usr/bin/ls
+    type: symlink
+    source: /usr/bin/bash
+
 accounts:
   groups:
     - groupname: nobody
